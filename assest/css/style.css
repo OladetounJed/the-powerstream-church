@@ -1,0 +1,115 @@
+/*----------------------
+CSS Reset
+
+----------------------*/
+
+html, body,  ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    font-family: 'Nunito Sans';
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav li {
+    list-style:none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+@media(max-width: 990px){
+    body {
+        font-size: 10px;
+    }
+}
+
+/*
+--------------------
+--------------------
+HomePage Styling
+-------------------
+-------------------
+*/
+
+/*Navigation Bar Styling */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 1em;
+    position: fixed;
+    width: 100%;
+    
+}
+
+.nav-left a {
+    font-size: 1.3rem;
+    color: white;
+}
+
+.nav-right a {
+    color: white;
+}
+
+
+
+.mobile-menu {
+    width: 1em;
+    display: none;
+}
+
+.nav-right ul {
+    display: flex;
+    
+}
+
+.nav-right li {
+    padding-right: 1.5em;
+}
+
+/*------
+Landing Page Styling 
+---------*/
+
+
+.landing-page-intro-con {
+    background-image: url(/assest/img/background-raising-hand-small.jpg);
+    color: white;
+    height: 50em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 -15em;
+    backdrop-filter: opacity(20%);
+}
+
+.landing-page-intro {
+    padding: 15em 0 0 2em;
+}
+
+.landing-page-intro h1 {
+    font-size: 2rem;
+    
+}
+
+.landing-page
